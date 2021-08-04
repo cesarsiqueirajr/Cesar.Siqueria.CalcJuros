@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalcJuros.Services.Api</name>
+    </assembly>
+    <members>
+        <member name="M:CalcJuros.Services.Api.App.CalcularJuros.CalculaJurosCommandHandlers.Handle(CalcJuros.Services.Api.App.CalcularJuros.CalculaJurosCommand,System.Threading.CancellationToken)">
+            <summary>
+            Calcula juros compostos
+            </summary>
+            <param name="message"><see cref="T:System.Threading.CancellationToken"/></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CalcJuros.Services.Api.App.DomainNotificationHandler">
+            <summary>
+            Pattern de notificação
+            </summary>
+        </member>
+        <member name="M:CalcJuros.Services.Api.Controllers.CalcularJurosController.CalculaJuros(System.Decimal,System.Int32)">
+            <summary>
+            Cálculo de juros compostos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CalcJuros.Services.Api.Controllers.CalcularJurosController.ShowMeTheCode">
+            <summary>
+            Show me the code
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CalcJuros.Services.Api.Controllers.ResultMessageResponse`1.#ctor(`0,System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+            <param name="errors"></param>
+        </member>
+        <member name="M:CalcJuros.Services.Api.Controllers.ResultMessageResponse`1.op_Implicit(`0)~CalcJuros.Services.Api.Controllers.ResultMessageResponse{`0}">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:CalcJuros.Services.Api.Controllers.TaxaJurosController.ObterTaxaDeJuros">
+            <summary>
+            Obtem taxa de juros
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CalcJuros.Services.Api.Extensions.ApplicationBuilderExtensionsSwagger">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
